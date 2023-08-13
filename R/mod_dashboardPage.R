@@ -11,7 +11,21 @@ mod_dashboardPage_ui <- function(id) {
     ns <- NS(id)
     tagList(
         dashboardPage(skin = "black",
-                      header = dashboardHeader(title = HTML("La vuelta")),
+                      header = dashboardHeader(title = HTML("La vuelta 2023"),
+                                               disable = FALSE,
+                                               titleWidth  = 500,
+                                               dropdownMenuCustom(
+                                                   type = "message",
+                                                   customSentence = customSentence,
+                                                   messageItem(
+                                                       from = "viniciusricardoriffel@gmail.com",
+                                                       message =  "",
+                                                       icon = icon("envelope"),
+                                                       href = "mailto:viniciusricardoriffel@gmail.com"
+                                                   ),
+                                                   icon = icon('comment')
+                                               )
+                                               ),
                       sidebar = dashboardSidebar(
                           width = 200,
                           sidebarMenu(
