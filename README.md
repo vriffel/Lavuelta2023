@@ -1,7 +1,3 @@
----
-output: github_document
----
-
 [The Vuelta a España](https://www.lavuelta.es/) stands as one of the most
 prestigious cycling competitions, holding a place alongside the Tour de France
 and Giro d'Italia as one of the Grand Tours. Since 1955, it has been an integral
