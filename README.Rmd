@@ -2,54 +2,29 @@
 output: github_document
 ---
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+[The Vuelta a España](https://www.lavuelta.es/) stands as one of the most
+prestigious cycling competitions, holding a place alongside the Tour de France
+and Giro d'Italia as one of the Grand Tours. Since 1955, it has been an integral
+part of the cycling calendar.
 
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
+The forthcoming 2023 edition marks the 78th installment of La Vuelta. Spanning
+ across 21 stages, this edition will witness the world's elite cyclists
+ conquering a challenging route spanning 3153.8 kilometers, with an elevation
+ gain of 47189 meters. The race is characterized by a diverse array of stages: 6
+ flat stages, 6 hilly stages, 7 demanding mountain stages, 2 gripping time-trial
+ stages, and 2 well-deserved rest days.
 
-# lavuelta2023
+Scheduled to commence on August 26, 2023, and culminating on September 17, 2023,
+ this edition promises riveting action and intense competition. For a
+ comprehensive overview of the stages, refer to the Stages Tab. Delve into
+ intricate details regarding each stage, including the route and elevation map,
+ within the Stage Overview tab. The Results Tab showcases the outcomes of every
+ stage, while the Standings section provides insights into the rankings for each
+ distinctive jersey. Get acquainted with the participating teams by exploring
+ the Teams Tab, which presents the starting lineup for La Vuelta 2023.
 
-<!-- badges: start -->
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-<!-- badges: end -->
 
-The goal of lavuelta2023 is to ...
-
-## Installation
-
-You can install the development version of lavuelta2023 like so:
-
-``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
-```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-```{r example}
-library(lavuelta2023)
-## basic example code
-```
-
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
-```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. You could also use GitHub Actions to re-render `README.Rmd` every time you push. An example workflow can be found here: <https://github.com/r-lib/actions/tree/v1/examples>.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
+The creation of this dashboard was driven by the intention to offer an enhanced
+ visual representation of the stages comprising La Vuelta 2023. This endeavor
+ wouldn't have been possible without the invaluable data sourced from
+ [procyclingstats](https://www.procyclingstats.com/) and [cyclingstage](https://cyclingstage.com/).
