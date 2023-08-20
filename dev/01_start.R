@@ -22,10 +22,10 @@ golem::fill_desc(
   pkg_name = "lavuelta2023", # The Name of the package containing the App
   pkg_title = "La Vuelta 2023", # The Title of the package containing the App
   pkg_description = "A dashboard for analysing La Vuelta 2023.", # The Description of the package containing the App
-  authors = person(given = "Vinicius", family = "Riffel",
+  authors = person("Vinicius", "Riffel",
                    email = "viniciusricardoriffel@gmail.com",
-                   role = "aut"),
-  repo_url = NULL, # The URL of the GitHub Repo (optional),
+                   role = c("cre", "aut")),
+  repo_url = "https://github.com/vriffel/Lavuelta2023", # The URL of the GitHub Repo (optional),
   pkg_version = "0.0.0.9000" # The Version of the package containing the App
 )
 
@@ -55,7 +55,7 @@ golem::use_recommended_tests()
 
 ## Favicon ----
 # If you want to change the favicon (default is golem's one)
-golem::use_favicon() # path = "path/to/ico". Can be an online file.
+golem::use_favicon("inst/app/www/favicon.png") # path = "path/to/ico". Can be an online file.
 # golem::remove_favicon() # Uncomment to remove the default favicon
 
 ## Add helper functions ----

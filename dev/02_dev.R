@@ -18,6 +18,18 @@
 ## install.packages('attachment') # if needed.
 attachment::att_amend_desc()
 
+usethis::use_package("sf", type = "Depends")
+usethis::use_package("shinydashboard", type = "Depends")
+usethis::use_package("shinybusy", type = "Depends")
+usethis::use_package("golem", type = "Depends")
+usethis::use_package("shiny", type = "Depends")
+usethis::use_package("stringr", type = "Depends")
+usethis::use_package("data.table", type = "Depends")
+usethis::use_package("leaflet", type = "Depends")
+usethis::use_package("highcharter", type = "Depends")
+usethis::use_package("gt", type = "Depends")
+usethis::use_package("gtExtras", type = "Depends")
+
 ## Add modules ----
 ## Create a module infrastructure in R/
 golem::add_module(name = "dashboardPage", with_test = TRUE)
@@ -41,7 +53,12 @@ golem::add_sass_file("custom")
 
 ## Add internal datasets ----
 ## If you have data in your package
-usethis::use_data_raw(name = "my_dataset", open = FALSE)
+usethis::use_data(list_vuelta)
+usethis::use_data(stage_summary)
+usethis::use_data(starting_list)
+usethis::use_data(thm)
+usethis::use_data(stages_table)
+usethis::use_data(stages_chart)
 
 ## Tests ----
 ## Add one line by test you want to create

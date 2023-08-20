@@ -2,16 +2,26 @@ Package: lavuelta2023
 Title: La Vuelta 2023
 Version: 0.0.0.9000
 Authors@R: 
-    person("Vinicius", "Riffel", , "viniciusricardoriffel@gmail.com", role = "aut")
+    person("Vinicius", "Riffel", , "viniciusricardoriffel@gmail.com", role = c("cre", "aut"))
 Description: A dashboard for analysing La Vuelta 2023.
 License: MIT + file LICENSE
+URL: https://github.com/vriffel/Lavuelta2023
+BugReports: https://github.com/vriffel/Lavuelta2023/issues
+Depends: 
+    data.table,
+    golem,
+    gt,
+    gtExtras,
+    highcharter,
+    leaflet,
+    R (>= 2.10),
+    sf,
+    shiny,
+    shinybusy,
+    shinydashboard,
+    stringr
 Imports: 
-    config (>= 0.3.1),
-    golem (>= 0.4.1),
-    shiny (>= 1.7.4)
-Suggests: 
-    spelling,
-    testthat (>= 3.0.0)
+    config (>= 0.3.1)
 Config/testthat/edition: 3
 Encoding: UTF-8
 Language: en-US

@@ -12,21 +12,6 @@ options(shiny.port = httpuv::randomPort())
 golem::document_and_reload()
 
 ##------------------------------------------------------------------------------
-## Os pacotes carrega no description, certo?
-require(sf)
-require(shinydashboard)
-require(shinybusy)
-require(golem)
-require(shiny)
-require(stringr)
-require(data.table)
-require(leaflet)
-require(highcharter)
-require(gt)
-require(gtExtras)
-##------------------------------------------------------------------------------
-
-##------------------------------------------------------------------------------
 ## Onde que eu carrego isso?
 list_vuelta <- dget("~/Desktop/Dashboard_Vuelta/data/list_vuelta")
 stage_summary <- fread("~/Desktop/Dashboard_Vuelta/data/stage_summary.csv")
@@ -82,7 +67,6 @@ stages_table <- stage_summary %>%
     opt_interactive(use_search = TRUE) %>%
     cols_move(columns = c(date, type, distance, elevation, start, finish),
               after = id)
-stages_table
 
 stages_chart <- hchart(stage_summary, "scatter",
                        hcaes(x = distance,
@@ -95,7 +79,6 @@ stages_chart <- hchart(stage_summary, "scatter",
     hc_yAxis(title = list(text = "Elevation Gain")) %>%
     hc_tooltip(pointFormat = "{point.text}") %>%
     hc_add_theme(thm)
-stages_chart
 ##------------------------------------------------------------------------------
 
 
