@@ -29,6 +29,7 @@ usethis::use_package("leaflet", type = "Depends")
 usethis::use_package("highcharter", type = "Depends")
 usethis::use_package("gt", type = "Depends")
 usethis::use_package("gtExtras", type = "Depends")
+usethis::use_package("shinycssloaders")
 
 ## Add modules ----
 ## Create a module infrastructure in R/

@@ -10,7 +10,7 @@
 mod_route_map_ui <- function(id) {
   ns <- NS(id)
   tagList(
-      leafletOutput(ns("stage_route"), height = 300)
+      shinycssloaders::withSpinner(leafletOutput(ns("stage_route"), height = 300))
   )
 }
 

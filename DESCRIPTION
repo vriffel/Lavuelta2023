@@ -21,7 +21,8 @@ Depends:
     shinydashboard,
     stringr
 Imports: 
-    config (>= 0.3.1)
+    config (>= 0.3.1),
+    shinycssloaders
 Config/testthat/edition: 3
 Encoding: UTF-8
 Language: en-US
