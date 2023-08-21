@@ -27,10 +27,10 @@ The creation of this dashboard was driven by the intention to offer an enhanced
 
 
 If you found this presentation engaging, consider sharing it with
- your friends. Remember to stay updated by following me on [Reddit]()
- and [Twitter](). For any inquiries or feedback, feel free to reach
+ your friends. Remember to stay updated by following me on [Reddit](https://www.reddit.com/user/vriffel)
+ and [Twitter](https://twitter.com/v_riffel). For any inquiries or feedback, feel free to reach
  out via email at viniciusricardoriffel@gmail.com.
 
 It's worth highlighting that this project operates on an
  open-source basis, and you can access all the code on my [GitHub
- repository]().
+ repository](https://github.com/vriffel/Lavuelta2023).
