@@ -56,7 +56,7 @@ golem::add_sass_file("custom")
 ## If you have data in your package
 usethis::use_data(list_vuelta)
 usethis::use_data(stage_summary)
-usethis::use_data(starting_list)
+usethis::use_data(starting_list, overwrite = TRUE)
 usethis::use_data(thm)
 usethis::use_data(stages_table)
 usethis::use_data(stages_chart)
@@ -90,7 +90,8 @@ usethis::use_github_action()
 # Chose one of the three
 # See https://usethis.r-lib.org/reference/use_github_action.html
 usethis::use_github_action_check_release()
-usethis::use_github_action_check_standard()
+usethis::use_github_action_check_stna
+dard()
 usethis::use_github_action_check_full()
 # Add action for PR
 usethis::use_github_action_pr_commands()
