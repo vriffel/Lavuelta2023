@@ -50,6 +50,9 @@ mod_dashboardPage_ui <- function(id) {
                       ),
                       body = dashboardBody(
                           tabItems(
+                              tabItem(tabName = "results",
+                                      fluidRow(mod_results_ui("results_1"))
+                                      ), ## tabItem Results
                               tabItem(
                                   tabName = "about",
                                   includeMarkdown("about.md")

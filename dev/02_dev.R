@@ -39,6 +39,7 @@ golem::add_module(name = "route_map", with_test = TRUE)
 golem::add_module(name = "elevation_map", with_test = TRUE)
 golem::add_module(name = "team", with_test = TRUE)
 golem::add_module(name = "stages", with_test = TRUE)
+golem::add_module(name = "results", with_test = TRUE)
 
 ## Add helper functions ----
 ## Creates fct_* and utils_*
@@ -60,6 +61,7 @@ usethis::use_data(starting_list, overwrite = TRUE)
 usethis::use_data(thm)
 usethis::use_data(stages_table)
 usethis::use_data(stages_chart)
+usethis::use_data(stages_results, overwrite = TRUE)
 
 ## Tests ----
 ## Add one line by test you want to create

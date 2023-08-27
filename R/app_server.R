@@ -12,4 +12,5 @@ app_server <- function(input, output, session) {
     mod_route_map_server("route_map_1", filter_vars = filtervars, x_value = x_value)
     mod_team_server("team_1", filter_vars = filtervars)
     mod_stages_server("stages_1")
+    mod_results_server("results_1")
 }
